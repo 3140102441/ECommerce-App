@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.jarvis.MyView.MyGridView
+        android:id="@+id/gridView_sc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginTop="50dp"
+        android:cacheColorHint="#00000000"
+        android:horizontalSpacing="5dp"
+        android:numColumns="3"
+        android:padding="8dp"
+        android:verticalSpacing="5dp" />
+
+    <LinearLayout
+        android:id="@+id/post_llt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:background="#cc0000"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="上传"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+</RelativeLayout>

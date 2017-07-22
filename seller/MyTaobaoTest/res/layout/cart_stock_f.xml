@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/bg_Gray_light"
+    >
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+        
+        
+        <ImageView 
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/f009"
+            android:layout_gravity="center"
+            
+            />
+        
+        <TextView 
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/tv_Black"
+            android:textSize="20sp"
+            android:text="看起来宝贝库存很丰满"
+            />
+        <TextView 
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="早买早享受"
+            />
+        
+       
+       
+       
+       
+        
+    </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

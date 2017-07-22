@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/iv_adapter_list_pic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:layout_margin="5dp"
+        android:src="@drawable/detail_show_3" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+        <TextView 
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="时尚女衣  流行女衣  连衣裙  半身裙  尽在恋上猫女衣坊 店铺地址：http//yecaoly.taobao.com"
+            android:textColor="@color/tv_Black"
+            />
+        
+        <TextView 
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="￥49.0元  包邮"
+            android:textColor="@color/tv_Red"
+            />
+        <TextView 
+            android:id="@+id/sale_num"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.8万人付款     广州"
+            android:textSize="13sp"
+            />
+        
+        
+        
+        
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/user_life"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.9" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+
+        <com.jarvis.MyView.ScratchTextView
+            android:id="@+id/tv_Scratch"
+            android:layout_width="263dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="2dp"
+            android:layout_gravity="center"
+            android:background="@color/bg_White"
+            android:textColor="@color/tv_Black"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:text="恭喜，再来一瓶" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:layout_weight="2" />
+
+</LinearLayout>
